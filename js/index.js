@@ -9,7 +9,7 @@ function start() {
     const user = document.getElementById('user')
     const pass = document.getElementById('pass')
   
-      if ( user.value == 'admin' && pass.value == 'admin123') {
+      if ( user.value == 'admin' && pass.value == 'abc123') {
         window.prompt('Welcome, have a nice day!')
   
       }
