@@ -1,17 +1,25 @@
 function start(){
 
-    const user = document.getElementById('user');
-    const pass = document.getElementById('pass');
-   const btn = document.getElementById('btn');
-    btn.onclick = login
+   const btn = document.getElementById('btn').value
+   btn.onclick = loginEvent
+}
+    const loginEvent = Event => {
+
+        const user = document.getElementById('user').value
+        const pass = document.getElementById('pass').value
+
+        if (user === 'admin' && pass === 'admin123') {
+            Window.prompt('Welcome')
+        } else {
+            Window.prompt('Invalid')
+        }
+
+
+    }
+
+
+
 
 start();
 
 
-
- const login = () => {
-    if (user.value == 'admin' && pass.value == 'admin123') {
-      window.prompt('Welcome');
-    } else {
-        window.prompt('Wrong username or password');
-    }
