@@ -1,7 +1,7 @@
 function start(){
 
    const btn = document.getElementById('btn').value
-   btn.onclick = loginEvent
+   newFunction(btn)
 }
     const loginEvent = _Event => {
 
@@ -9,7 +9,7 @@ function start(){
         const pass = document.getElementById('pass').value
 
         if (user === 'admin' && pass === 'admin123') {
-            Window.prompt('Welcome')
+            Window.prompt('Welcome, have a great day')
         } else {
             Window.prompt('Invalid')
         }
@@ -17,9 +17,10 @@ function start(){
 
     }
 
-
-
-
 start();
 
+
+function newFunction(btn) {
+    btn.onclick = loginEvent
+}
 
