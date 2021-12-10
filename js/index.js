@@ -1,16 +1,17 @@
 function start() {
 
     const btn = document.getElementById('btn')
-    btn.onclick = loginCheck
+    btn.onclick = login
   }
   
-  function loginCheck() { 
+  function login() { 
   
     const user = document.getElementById('user')
     const pass = document.getElementById('pass')
   
       if ( user.value == 'admin' && pass.value == 'abc123') {
         window.prompt('Welcome, have a nice day! Rodrigo, next year I pay for your pizza ')
+        
   
       }
       else  {
