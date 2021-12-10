@@ -10,7 +10,7 @@ function start() {
     const pass = document.getElementById('pass')
   
       if ( user.value == 'admin' && pass.value == 'abc123') {
-        window.prompt('Welcome, have a nice day!')
+        window.prompt('Welcome, have a nice day! Rodrigo, next year I pay for your pizza ')
   
       }
       else  {
