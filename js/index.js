@@ -7,7 +7,7 @@ function start() {
   function loginCheck() { 
   
     const user = document.getElementById('user')
-    const password = document.getElementById('password')
+    const pass = document.getElementById('pass')
   
       if ( user.value == 'admin' && password.value == 'admin123') {
         window.prompt('Welcome, have a nice day!')
