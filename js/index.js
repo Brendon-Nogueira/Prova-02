@@ -15,4 +15,3 @@ start();
     } else {
         window.prompt('Wrong username or password');
     }
- 
