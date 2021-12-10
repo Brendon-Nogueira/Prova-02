@@ -3,7 +3,7 @@ function start(){
    const btn = document.getElementById('btn').value
    btn.onclick = loginEvent
 }
-    const loginEvent = Event => {
+    const loginEvent = _Event => {
 
         const user = document.getElementById('user').value
         const pass = document.getElementById('pass').value
